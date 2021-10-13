@@ -20,12 +20,11 @@
 
   .our_test_child {
     margin-top: 40px;
-    width: 100%;
+    width: 1200px;
     height: 610px;
     display: flex;
     flex-wrap: wrap;
-    // justify-content: space-around;
-    border: 1px solid red;
+    justify-content: space-around;
 
     .our_test_item {
       height: 295px;
