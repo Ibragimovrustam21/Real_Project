@@ -3,7 +3,7 @@ import '../../css/home/start_test.scss'
 
 export const StartTest = () => {
   return (
-    <div className='start_test'>
+    <div className='start_test container'>
       <div className='start_test_child'>
         <div className='start_test_info'>
           <h1>Xorijiy tillarni bilish darajasini baholash milliy tizimi</h1>

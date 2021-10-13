@@ -1,11 +1,7 @@
 .partners {
   height: 606px;
   width: 100%;
-  box-sizing: border-box;
-  padding: 100px 121px;
   margin: 0;
-  display: flex;
-  justify-content: center;
 
   .partners_child {
     max-width: 1440px;
@@ -21,6 +17,7 @@
       line-height: 140%;
       letter-spacing: -0.02em;
       text-align: center;
+      margin-top: 100px;
     }
 
     .carousel {

@@ -1,9 +1,7 @@
 .online_test {
-  height: auto;
+  height: 624px;
   width: 100%;
-  display: flex;
   background-color: #f9f9f9;
-  justify-content: center;
 
   .online_test_child {
     max-width: 1440px;
@@ -18,7 +16,7 @@
       justify-content: center;
       align-items: center;
       box-sizing: border-box;
-      padding: 103px 0 92px 142px;
+      padding-top: 103px;
       position: relative;
 
       .play_video {
@@ -56,11 +54,11 @@
       height: 100%;
       width: 50%;
       box-sizing: border-box;
-      padding-left: 71px;
+      // padding-left: 71px;
       padding-top: 157px;
       display: flex;
-      flex-wrap: wrap;
       flex-direction: column;
+      justify-content: center;
 
       h1 {
         font-size: 36px;

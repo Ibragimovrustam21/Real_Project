@@ -1,16 +1,12 @@
 .our_test {
   height: 910px;
   width: 100%;
-  display: flex;
   flex-direction: column;
   align-items: center;
-  box-sizing: border-box;
-  padding: 0 121px;
   background: #f9f9f9;
 
   h1 {
     margin-top: 100px;
-    // width: 251px;
     height: 50px;
     font-style: normal;
     font-weight: 600;
@@ -20,20 +16,20 @@
 
   .our_test_child {
     margin-top: 40px;
-    width: 1200px;
-    height: 610px;
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
     .our_test_item {
       height: 295px;
-      width: 390px;
+      width: 32%;
       background: #FFFFFF;
       box-shadow: 0px 2px 2px rgba(204, 204, 204, 0.51);
       border-radius: 10px;
       box-sizing: border-box;
-      padding: 0 40px;
+      padding: 0 30px;
 
       .test_item_title {
         display: flex;
@@ -70,7 +66,7 @@
 
             h1 {
               margin: 0;
-              // width: 94px;
+              width: 100%;
               height: 22px;
               font-family: Montserrat;
               font-style: normal;
@@ -81,14 +77,12 @@
             }
 
             p {
-              width: 110px;
               height: 18px;
               font-family: Montserrat;
               font-style: normal;
               font-weight: 600;
               font-size: 18px;
               line-height: 100%;
-              /* identical to box height, or 18px */
               background: red;
               letter-spacing: -0.05em;
               text-transform: uppercase;
@@ -100,7 +94,6 @@
 
           h3 {
             margin-top: 10px;
-            width: 51px;
             height: 18px;
             font-family: Montserrat;
             font-style: normal;
@@ -114,8 +107,7 @@
 
       .test_item_text {
         p {
-          // width: 266px;
-          height: 60px;
+          height: auto;
           font-family: Montserrat;
           font-style: normal;
           font-weight: 500;
@@ -129,8 +121,6 @@
       .test_item_time {
         display: flex;
         justify-content: space-between;
-        // border: 1px solid red;
-
         div {
           height: 25px;
           display: flex;
@@ -168,6 +158,7 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 20px;
+
         h3 {
           width: 43px;
           height: 24px;
@@ -191,14 +182,11 @@
           align-items: center;
           cursor: pointer;
           text-decoration: none;
-          svg{
+
+          svg {
             width: 6.48px;
             height: 10.61px;
             margin-left: 12.85px;
-
-            path{
-
-            }
           }
         }
       }

@@ -10,7 +10,7 @@ import { Navbar } from '../components/Navbar';
 
 export const Home = () => {
   return (
-    <div className='home_page'>
+    <div >
       <Header />
       <Navbar />
       <StartTest />

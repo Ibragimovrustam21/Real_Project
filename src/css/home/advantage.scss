@@ -1,9 +1,6 @@
 .advantage {
   height: 537px;
   width: 100%;
-  box-sizing: border-box;
-  padding: 0 154px;
-  display: flex;
   flex-direction: column;
   align-items: center;
 
@@ -26,8 +23,7 @@
     height: 312px;
     margin-top: 40px;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
     .advantage_item {
       width: 324px;
       height: 100%;

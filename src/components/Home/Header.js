@@ -5,8 +5,8 @@ import '../../css/home/header.scss'
 
 export const Header = () => {
   return (
-    <div className='header'>
-      <div className='header-child'>
+    <div className='header container'>
+      <div className='header-child '>
         <div className='header_img_block'>
           <img src={gerb} alt='' />
           <p>xorijiy tillarni o'rganishni ommalashtirish Agentligi</p>

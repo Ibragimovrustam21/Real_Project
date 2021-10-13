@@ -6,14 +6,15 @@ import { Footer } from './components/Footer'
 
 export const App = () => {
   return (
+    <div className='home_page'>
+      <BrowserRouter>
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Redirect to='/' />
+        </Switch>
+        <Footer />
+      </BrowserRouter>
+    </div>
 
-    <BrowserRouter>
-      <Switch>
-        <Route path='/' exact component={Home} />
-
-        <Redirect to='/' />
-      </Switch>
-      <Footer />
-    </BrowserRouter>
   )
 }
