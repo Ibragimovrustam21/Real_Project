@@ -4,9 +4,12 @@
   box-sizing: border-box;
   padding: 0 121px;
   background-color: #023047;
+  display: flex;
+  justify-content: center;
   .header-child {
     height: 100%;
     width: 100%;
+    max-width: 1440px;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -5,6 +5,7 @@ import gerb from '../img/home/image 11sada (1).png'
 export const Footer = () => {
   return (
     <div className='footer'>
+      <div className='footer_child'>
       <div className='footer-h'>
         <div className='address'>
           <div className='header_block'>
@@ -49,6 +50,8 @@ export const Footer = () => {
       <div className='footer-b'>
         <p>Copyright © 2021, NAJM Agency tomonidan ishlab chiqilgan.</p>
       </div>
+      </div>
+      
     </div>
   );
 };

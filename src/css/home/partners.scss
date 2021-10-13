@@ -4,92 +4,100 @@
   box-sizing: border-box;
   padding: 100px 121px;
   margin: 0;
+  display: flex;
+  justify-content: center;
 
-  h1 {
+  .partners_child {
+    max-width: 1440px;
     width: 100%;
-    height: 50px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 140%;
-    letter-spacing: -0.02em;
-    text-align: center;
+    height: 100%;
+
+    h1 {
+      width: 100%;
+      height: 50px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 140%;
+      letter-spacing: -0.02em;
+      text-align: center;
+    }
+
+    .carousel {
+      width: 100%;
+      height: 300px;
+      margin-top: 46px;
+
+      .slick-dots li button:before {
+        font-size: 13px;
+        color: orange;
+      }
+
+      .slick-next {
+        right: 20px;
+      }
+
+      .slick-prev {
+        left: 20px;
+        position: relative;
+        top: 0;
+        z-index: 999;
+      }
+
+      .slick-next:before,
+      .slick-prev:before {
+        color: grey;
+        font-size: 35px;
+      }
+
+      .slick-slider {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .slick-track {
+          height: 290px;
+        }
+
+        .slick-slide img {
+          display: block;
+        }
+      }
+
+      .carousel-card-item {
+        width: 289px !important;
+        height: 260px;
+        background: #fff;
+        box-shadow: 0px 2px 4px rgba(232, 232, 232, 0.5);
+        border-radius: 10px;
+        margin-left: 20px;
+        box-sizing: border-box;
+        padding: 30px 43px;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 120px;
+          height: 120px;
+          text-align: center;
+          margin: 0 !important;
+        }
+
+        p {
+          text-align: center;
+          margin-top: 20px;
+          width: 204px;
+          height: 60px;
+          left: 164px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: -0.01em;
+        }
+      }
+    }
   }
 
-  .carousel {
-    width: 100%;
-    height: 300px;
-    margin-top: 46px;
-
-    .slick-dots li button:before {
-      font-size: 13px;
-      color: orange;
-    }
-
-    .slick-next {
-      right: 0px;
-
-    }
-
-    .slick-prev {
-      left: 20px;
-      position: relative;
-      top: 0;
-      z-index: 999;
-    }
-
-    .slick-next:before,
-    .slick-prev:before {
-      color: grey;
-      font-size: 35px;
-    }
-
-    .slick-slider {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-
-      .slick-track {
-        height: 290px;
-      }
-
-      .slick-slide img {
-        display: block;
-      }
-    }
-
-    .carousel-card-item {
-      width: 289px !important;
-      height: 260px;
-      background: #fff;
-      box-shadow: 0px 2px 4px rgba(232, 232, 232, 0.5);
-      border-radius: 10px;
-      margin-left: 20px;
-      box-sizing: border-box;
-      padding: 30px 43px;
-      display: flex !important;
-      flex-direction: column;
-      align-items: center;
-
-      img {
-        width: 120px;
-        height: 120px;
-        text-align: center;
-        margin: 0 !important;
-      }
-
-      p {
-        text-align: center;
-        margin-top: 20px;
-        width: 204px;
-        height: 60px;
-        left: 164px;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: -0.01em;
-      }
-    }
-  }
 }

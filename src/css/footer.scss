@@ -2,167 +2,176 @@
   height: 377px;
   width: 100%;
   background: #011F2E;
-
-  .footer-h {
-    height: 317px;
+display: flex;
+justify-content: center;
+  .footer_child {
+    max-width: 1440px;
     width: 100%;
-    box-sizing: border-box;
-    padding: 82px 189px 61px 121px;
-    display: flex;
-    justify-content: space-around;
+    height: 100%;
+    .footer-h {
+      height: 317px;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 82px 189px 61px 121px;
+      display: flex;
+      justify-content: space-around;
 
-    .address {
-      width: 540px;
-      height: 100%;
+      .address {
+        width: 540px;
+        height: 100%;
 
-      .header_block {
-        display: flex;
-        align-items: center;
+        .header_block {
+          display: flex;
+          align-items: center;
 
-        img {
-          height: 70px;
-          width: 66px;
+          img {
+            height: 70px;
+            width: 66px;
+          }
+
+          p {
+            width: 290px;
+            height: 52px;
+            font-size: 18px;
+            line-height: 26px;
+            font-style: normal;
+            text-transform: uppercase;
+            margin-left: 20px;
+            color: #fff;
+          }
         }
 
-        p {
-          width: 290px;
-          height: 52px;
-          font-size: 18px;
-          line-height: 26px;
-          font-style: normal;
-          text-transform: uppercase;
-          margin-left: 20px;
-          color: #fff;
+        .location {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          margin-top: 58px;
+          margin-left: 60px;
+          width: 450px;
+
+          p {
+            width: 417px;
+            height: 48px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: -0.01em;
+            color: #FFFFFF;
+          }
         }
       }
 
-      .location {
+      .menu {
+        width: 140px;
+        height: 100%;
+        // border: 1px solid #fff;
         display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-top: 58px;
-        margin-left: 60px;
-        width: 450px;
+        flex-direction: column;
 
-        p {
-          width: 417px;
-          height: 48px;
+        h3 {
+          width: 64px;
+          height: 20px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 100%;
+          letter-spacing: -0.01em;
+          color: #FFFFFF;
+          // margin-bottom: 10px;
+        }
+
+        a {
+          height: 18px;
           font-style: normal;
           font-weight: normal;
           font-size: 18px;
-          line-height: 24px;
+          line-height: 100%;
+          letter-spacing: -0.01em;
+          color: #FFFFFF;
+          opacity: 0.7;
+          text-decoration: none;
+          margin-top: 30px;
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+
+      .contact {
+        width: 220px;
+        height: 100%;
+
+        h3 {
+          width: 146px;
+          height: 20px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 100%;
           letter-spacing: -0.01em;
           color: #FFFFFF;
         }
-      }
-    }
-  }
 
-  .menu {
-    width: 140px;
-    height: 100%;
-    // border: 1px solid #fff;
-    display: flex;
-    flex-direction: column;
+        div {
+          height: 18px;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 100%;
+          letter-spacing: -0.01em;
+          color: #FFFFFF;
+          opacity: 0.7;
+          margin-top: 29px;
 
-    h3 {
-      width: 64px;
-      height: 20px;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 100%;
-      letter-spacing: -0.01em;
-      color: #FFFFFF;
-      // margin-bottom: 10px;
-    }
+          svg {
+            margin-right: 13px;
+          }
 
-    a {
-      height: 18px;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 100%;
-      letter-spacing: -0.01em;
-      color: #FFFFFF;
-      opacity: 0.7;
-      text-decoration: none;
-      margin-top: 30px;
+          a {
+            text-decoration: none;
+            color: #fff;
+            opacity: 0.7;
 
-      &:hover {
-        opacity: 1;
-      }
-    }
-  }
+            &:hover {
+              opacity: 1;
+            }
+          }
 
-  .contact {
-    width: 220px;
-    height: 100%;
-
-    h3 {
-      width: 146px;
-      height: 20px;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 100%;
-      letter-spacing: -0.01em;
-      color: #FFFFFF;
-    }
-
-    div {
-      height: 18px;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 100%;
-      letter-spacing: -0.01em;
-      color: #FFFFFF;
-      opacity: 0.7;
-      margin-top: 29px;
-
-      svg {
-        margin-right: 13px;
-      }
-
-      a {
-        text-decoration: none;
-        color: #fff;
-        opacity: 0.7;
-
-        &:hover {
-          opacity: 1;
         }
       }
+    }
 
+    .hr {
+      width: 100%;
+      height: 1px;
+      background: #747474;
+      opacity: 0.5;
+      transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+
+    .footer-b {
+      height: 59px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        width: 475px;
+        height: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        color: #808080;
+        opacity: 0.5;
+      }
     }
   }
-}
 
-.hr {
-  width: 100%;
-  height: 1px;
-  background: #747474;
-  opacity: 0.5;
-  transform: matrix(1, 0, 0, -1, 0, 0);
-}
 
-.footer-b {
-  height: 59px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  p {
-    width: 475px;
-    height: 20px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: -0.01em;
-    color: #808080;
-    opacity: 0.5;
-  }
 }

@@ -46,45 +46,48 @@ export const Partners = () => {
   };
   return (
     <div className='partners'>
-      <h1>Bizning Hamkorlar</h1>
-      <div className='carousel' style={{
-        display: display ? "block" : "none",
-      }}>
-        <Slider {...settings} style={{ height: '100%' }}>
-          <div className='carousel-card-item'>
-            <img src={gerb} alt='' />
-            <p>O‘zbekiston Respublikasi Prezidentining rasmiy veb sayti</p>
-          </div>
-          <div className='carousel-card-item'>
-            <img src={portal} alt='' />
-            <p>Davlat interaktiv xizmatlari yagona portali</p>
-          </div>
-          <div className='carousel-card-item'>
-            <img src={ochiq_portal} alt='' />
-            <p>O‘zbekiston Respublikasi ochik ma'lumotlari portali</p>
-          </div>
-          <div className='carousel-card-item'>
-            <img src={m_vazirlik} alt='' />
-            <p>O‘zbekiston Respublikasi Maktabgacha Ta'lim Vazirligi</p>
-          </div>
-          <div className='carousel-card-item'>
-            <img src={gerb} alt='' />
-            <p>O‘zbekiston Respublikasi Prezidentining rasmiy veb sayti</p>
-          </div>
-          <div className='carousel-card-item'>
-            <img src={gerb} alt='' />
-            <p>O‘zbekiston Respublikasi Prezidentining rasmiy veb sayti</p>
-          </div>
-          <div className='carousel-card-item'>
-            <img src={gerb} alt='' />
-            <p>O‘zbekiston Respublikasi Prezidentining rasmiy veb sayti</p>
-          </div>
-          <div className='carousel-card-item'>
-            <img src={gerb} alt='' />
-            <p>O‘zbekiston Respublikasi Prezidentining rasmiy veb sayti</p>
-          </div>
-        </Slider>
+      <div className='partners_child'>
+        <h1>Bizning Hamkorlar</h1>
+        <div className='carousel' style={{
+          display: display ? "block" : "none",
+        }}>
+          <Slider {...settings} style={{ height: '100%' }}>
+            <div className='carousel-card-item'>
+              <img src={gerb} alt='' />
+              <p>O‘zbekiston Respublikasi Prezidentining rasmiy veb sayti</p>
+            </div>
+            <div className='carousel-card-item'>
+              <img src={portal} alt='' />
+              <p>Davlat interaktiv xizmatlari yagona portali</p>
+            </div>
+            <div className='carousel-card-item'>
+              <img src={ochiq_portal} alt='' />
+              <p>O‘zbekiston Respublikasi ochik ma'lumotlari portali</p>
+            </div>
+            <div className='carousel-card-item'>
+              <img src={m_vazirlik} alt='' />
+              <p>O‘zbekiston Respublikasi Maktabgacha Ta'lim Vazirligi</p>
+            </div>
+            <div className='carousel-card-item'>
+              <img src={gerb} alt='' />
+              <p>O‘zbekiston Respublikasi Prezidentining rasmiy veb sayti</p>
+            </div>
+            <div className='carousel-card-item'>
+              <img src={gerb} alt='' />
+              <p>O‘zbekiston Respublikasi Prezidentining rasmiy veb sayti</p>
+            </div>
+            <div className='carousel-card-item'>
+              <img src={gerb} alt='' />
+              <p>O‘zbekiston Respublikasi Prezidentining rasmiy veb sayti</p>
+            </div>
+            <div className='carousel-card-item'>
+              <img src={gerb} alt='' />
+              <p>O‘zbekiston Respublikasi Prezidentining rasmiy veb sayti</p>
+            </div>
+          </Slider>
+        </div>
       </div>
+
     </div>
   );
 };

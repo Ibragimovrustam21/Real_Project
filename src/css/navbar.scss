@@ -3,10 +3,12 @@
   width: 100%;
   box-sizing: border-box;
   padding: 0 121px;
-
+  display: flex;
+  justify-content: center;
   .navbar-child {
     height: 100%;
     width: 100%;
+    max-width: 1440px;
     display: flex;
     align-items: center;
     justify-content: space-between;

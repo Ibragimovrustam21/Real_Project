@@ -1,50 +1,62 @@
 .start_test {
   height: 540px;
   width: 100%;
-  display: flex;
   background-color: #023047;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-top: 76px;
+  padding-left: 121px;
+  padding-right: 121px;
 
-  .start_test_info {
-    width: 50%;
-    height: 100% !important;
+  .start_test_child {
     display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    padding-top: 76px;
-    padding-left: 121px;
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
 
-    h1 {
-      font-weight: 700;
-      line-height: 65px;
-      font-size: 50px !important;
-      color: #fff;
-      width: 639px;
+    .start_test_info {
+      width: 50%;
+      height: 100% !important;
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        font-weight: 700;
+        line-height: 65px;
+        font-size: 50px !important;
+        color: #fff;
+        width: 639px;
+      }
+
+      p {
+        color: #fff;
+        font-size: 24px;
+        line-height: 33.6px;
+        font-weight: 400;
+        margin-top: 30px;
+        width: 610px;
+      }
+
+      button {
+        height: 60px;
+        width: 225px;
+        border-radius: 45px;
+        color: #023047;
+        font-size: 20px;
+        box-sizing: border-box;
+        padding: 20px 33px;
+        line-height: 20px;
+        cursor: pointer;
+        margin-top: 40px;
+        border: 0;
+      }
     }
 
-    p {
-      color: #fff;
-      font-size: 24px;
-      line-height: 33.6px;
-      font-weight: 400;
-      margin-top: 30px;
-      width: 610px;
-    }
-    button{
-      height: 60px;
-      width: 225px;
-      border-radius: 45px;
-      color: #023047;
-      font-size: 20px;
-      box-sizing: border-box;
-      padding: 20px 33px;
-      line-height: 20px;
-      cursor: pointer;
-      margin-top: 40px;
-      border: 0;
+    .start_test_img {
+      width: 50%;
+      background: url('../../img/home/teenager-student-girl-yellow-pointing-finger-side_1368-40175-removebg 1.png') no-repeat center;
     }
   }
-  .start_test_img{
-    width:50%;
-    background: url('../../img/home/teenager-student-girl-yellow-pointing-finger-side_1368-40175-removebg 1.png') no-repeat center;
-  }
+
 }
