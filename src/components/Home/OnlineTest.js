@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../css/home/online_test.scss'
 import rectangle from '../../img/home/Rectangle 22.png'
-import backRectangle from '../../img/home/Rectangle 21.png'
 import { Link } from 'react-router-dom';
 
 export const OnlineTest = () => {
