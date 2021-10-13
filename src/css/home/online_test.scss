@@ -1,69 +1,73 @@
 .start_online_test {
-  height: 540px;
+  height: auto;
   width: 100%;
   display: flex;
   background-color: #f9f9f9;
 
   .video_about_test {
     height: 100%;
-    width: 40%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     padding: 103px 0 92px 142px;
     position: relative;
 
-    img {
-      width: 345px;
-      height: 345px;
+    .play_video {
+      background: url('../../img/home/Rectangle 21.png') no-repeat left;
+      width: 365px;
+      height: 365px;
+      background-size: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       position: relative;
-    }
 
-    img:nth-child(2) {
-      z-index: 5;
-    }
+      img {
+        height: 90%;
+        width: 90%;
+      }
 
-    img:nth-child(1) {
-      position: absolute;
-      left: 118px;
-      z-index: 1;
-    }
+      svg {
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        cursor: pointer;
+        height: 50px;
+        width: 50px;
+        z-index: 6;
 
-    svg {
-      position: absolute;
-      top: 245px;
-      left: 290px;
-      cursor: pointer;
-      height: 50px;
-      width: 50px;
-      z-index: 6;
-
-      path {
-        fill: #fff;
+        path {
+          fill: #fff;
+        }
       }
     }
   }
 
   .read_more_about_test {
     height: 100%;
-    width: 100%;
+    width: 50%;
     box-sizing: border-box;
     padding-left: 71px;
     padding-top: 157px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 
     h1 {
       font-size: 36px;
       line-height: 50.4px;
       font-weight: 600;
-      height: 100px;
-      width: 581px;
+      height: auto;
+      width: 100%;
       letter-spacing: -0.01em;
     }
 
     p {
       margin-top: 25px;
-      height: 144px;
-      width: 694px;
+      height: auto;
+      width: 100%;
       line-height: 150%;
       font-size: 24px;
       font-weight: normal;
@@ -73,7 +77,6 @@
     a {
       text-decoration: none;
       width: 147px;
-      height: 30px;
       font-size: 30px;
       line-height: 100%;
       font-weight: 500;
@@ -82,18 +85,24 @@
       letter-spacing: -0.01em;
       display: flex;
       align-items: center;
-      // padding: 15px 20px;
+      padding: 15px 0;
       border-radius: 45px;
       transition: all 0.3s linear;
+      margin-bottom: 40px;
+
       &:hover {
         background: #FF7500;
         transition: all 0.3s linear;
         color: #fff !important;
         border-radius: 45px;
-      padding: 15px 20px;
+        padding: 15px 20px;
 
-        svg{
-          path{fill: #fff};
+        svg {
+          path {
+            fill: #fff
+          }
+
+          ;
         }
       }
 
