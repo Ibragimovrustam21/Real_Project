@@ -13,7 +13,7 @@ export const OurCertificate = () => {
             va  qisqa muddatda o’z natijangizni bilib oling.
             Horijiy tillarni bilish darajangizdagi sertifikatga ega bo’ling.
           </p>
-          <button>Sertifikatni olish</button>
+          <button type='button' className='btn'>Sertifikatni olish</button>
         </div>
         <div className='photo_our_certificate'></div>
       </div>

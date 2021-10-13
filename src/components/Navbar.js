@@ -7,6 +7,7 @@ import { SignUp } from './Home/modal/SignUp';
 export const Navbar = () => {
   const [openSignUp, setOpenSignUp] = React.useState(false);
   const [openSignIn, setOpenSignIn] = React.useState(false);
+  
 
   const OpenSignUp = () => setOpenSignUp(true);
   const OpenSignIn = () => setOpenSignIn(true);
@@ -45,7 +46,7 @@ export const Navbar = () => {
             <li onClick={OpenSignIn}>Kirish</li>
             <SignIn show={openSignIn} hide={CloseSignIn} />
             <SignUp show={openSignUp} hide={CloseSignUp} />
-            <li><button onClick={OpenSignUp} type='button'>Ro`yxatdan o`tish</button></li>
+            <li><button onClick={OpenSignUp} className='btn'>Ro`yxatdan o`tish</button></li>
           </ul>
         </div>
       </div>

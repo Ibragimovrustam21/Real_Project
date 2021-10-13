@@ -14,21 +14,17 @@ h1,h2,h3,h4,h5,h6,p{
 }
 button{
   transition: all 0.5s linear;
-
+  cursor: pointer;
 }
-button:hover{
-  background: #FF7500;
+.btn:hover{
+  background: #FF7500 !important;
   transition: all 0.3s linear;
   color: #fff !important;
 }
-/* .home_page{
-  max-width: 1440px;
-  margin: 0 auto;
-} */
+
 .container{
   display: flex;
   justify-content: center;
   box-sizing: border-box;
   padding: 0 121px !important;
-  
 }

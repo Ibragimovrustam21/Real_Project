@@ -10,7 +10,7 @@ export const StartTest = () => {
           <p>
             Istalgan vaqtda, istalgan joyda onlayn testdan o'ting va shaxsiylashtirilgan ForLang Certificate ™ ni oling
           </p>
-          <button type='button'>Testni boshlash</button>
+          <button type='button' className='btn'>Testni boshlash</button>
         </div>
         <div className='start_test_img'></div>
       </div>
