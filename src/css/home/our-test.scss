@@ -1,0 +1,207 @@
+.our_test {
+  height: 910px;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 121px;
+  background: #E5E5E5;
+
+  h1 {
+    margin-top: 100px;
+    // width: 251px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .our_test_child {
+    margin-top: 40px;
+    width: 100%;
+    height: 610px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .our_test_item {
+      height: 295px;
+      width: 390px;
+      background: #FFFFFF;
+      box-shadow: 0px 2px 2px rgba(204, 204, 204, 0.51);
+      border-radius: 10px;
+      box-sizing: border-box;
+      padding: 0 40px;
+
+      .test_item_title {
+        display: flex;
+        height: 50px;
+        margin-top: 35px;
+
+        .test_item_title_icon {
+          border: 3px solid rgba(174, 176, 181, 0.314986);
+          height: 45px;
+          width: 45px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          svg {
+            height: 18px;
+            width: 20px;
+
+            path {
+              fill: #2D3A45;
+            }
+          }
+        }
+
+        .test_item_title_info {
+          display: flex;
+          flex-direction: column;
+          margin-left: 19px;
+
+          div {
+            display: flex;
+            align-items: center;
+
+            h1 {
+              margin: 0;
+              // width: 94px;
+              height: 22px;
+              font-family: Montserrat;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 22px;
+              line-height: 100%;
+              text-align: start;
+            }
+
+            p {
+              width: 110px;
+              height: 18px;
+              font-family: Montserrat;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 100%;
+              /* identical to box height, or 18px */
+              background: red;
+              letter-spacing: -0.05em;
+              text-transform: uppercase;
+              margin-left: 12px;
+
+              color: #FFFFFF;
+            }
+          }
+
+          h3 {
+            margin-top: 10px;
+            width: 51px;
+            height: 18px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 100%;
+            opacity: 0.5;
+          }
+        }
+      }
+
+      .test_item_text {
+        p {
+          // width: 266px;
+          height: 60px;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          letter-spacing: -0.02em;
+          margin-top: 20px;
+        }
+      }
+
+      .test_item_time {
+        display: flex;
+        justify-content: space-between;
+        // border: 1px solid red;
+
+        div {
+          height: 25px;
+          display: flex;
+          align-items: center;
+          margin-top: 23px;
+
+          svg {
+            height: 17.5px;
+            width: 15px;
+          }
+
+          p {
+            width: 90px;
+            height: 25px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 140%;
+            margin-left: 12.5px;
+            // font-weight: bold;
+          }
+        }
+      }
+
+      .hr {
+        width: 310px;
+        height: 1px;
+        background: #E6E6E6;
+        margin-top: 13px;
+      }
+
+      .test_item_price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        h3 {
+          width: 43px;
+          height: 24px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 100%;
+          letter-spacing: -0.02em;
+        }
+
+        a {
+          width: 100px;
+          height: 18px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 100%;
+          letter-spacing: -0.02em;
+          color: #FF7500;
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+          text-decoration: none;
+          svg{
+            width: 6.48px;
+            height: 10.61px;
+            margin-left: 12.85px;
+
+            path{
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

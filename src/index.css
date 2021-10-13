@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+button{
+  transition: all 0.5s linear;
+
+}
+button:hover{
+  background: #FF7500;
+  transition: all 0.3s linear;
+  color: #fff !important;
+}

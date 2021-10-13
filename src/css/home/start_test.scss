@@ -1,0 +1,50 @@
+.start_test {
+  height: 540px;
+  width: 1440px;
+  display: flex;
+  background-color: #023047;
+
+  .start_test_info {
+    width: 50%;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 76px;
+    padding-left: 121px;
+
+    h1 {
+      font-weight: 700;
+      line-height: 65px;
+      font-size: 50px !important;
+      color: #fff;
+      width: 639px;
+    }
+
+    p {
+      color: #fff;
+      font-size: 24px;
+      line-height: 33.6px;
+      font-weight: 400;
+      margin-top: 30px;
+      width: 610px;
+    }
+    button{
+      height: 60px;
+      width: 225px;
+      border-radius: 45px;
+      color: #023047;
+      font-size: 20px;
+      box-sizing: border-box;
+      padding: 20px 33px;
+      line-height: 20px;
+      cursor: pointer;
+      margin-top: 40px;
+      border: 0;
+    }
+  }
+  .start_test_img{
+    width: 50%;
+    background: url('../../img/home/teenager-student-girl-yellow-pointing-finger-side_1368-40175-removebg 1.png') right;
+  }
+}
