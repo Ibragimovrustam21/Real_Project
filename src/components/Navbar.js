@@ -1,8 +1,8 @@
 import React from 'react';
 import '../css/navbar.scss'
 import { Link } from 'react-router-dom';
-import { SignIn } from './Home/modal/SignIn';
-import { SignUp } from './Home/modal/SignUp';
+import { SignIn } from './modal/SignIn';
+import { SignUp } from './modal/SignUp';
 
 export const Navbar = () => {
   const [openSignUp, setOpenSignUp] = React.useState(false);

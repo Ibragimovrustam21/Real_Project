@@ -6,7 +6,7 @@ import StepLabel from '@mui/material/StepLabel';
 import Typography from '@mui/material/Typography';
 
 const steps = ['Identifikatsiya', 'Tasdiqlash'];
-export default function ModalBody() {
+export default function BodySignUp() {
   const [activeStep, setActiveStep] = React.useState(0);
   const [skipped, setSkipped] = React.useState(new Set());
 

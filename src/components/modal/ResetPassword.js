@@ -1,6 +1,7 @@
 import React from 'react';
+import '../../css/modal/modal.scss'
+import '../../css/modal/modalReset.scss'
 import { Modal } from '@mui/material';
-import '../../../css/modalReset.scss'
 
 export const ResetPassword = ({ show, hide }) => {
   return (
@@ -10,7 +11,7 @@ export const ResetPassword = ({ show, hide }) => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <div className='modal_reset_password'>
+        <div className='modal_reset_password modal'>
           <h3>Parolni qayta tiklash</h3>
           <div className='input_item'>
             <input type='type' placeholder='Telefon raqami' />

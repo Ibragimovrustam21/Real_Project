@@ -1,6 +1,8 @@
 import React from 'react';
+import '../../css/modal/modalSignIn.scss'
+import '../../css/modal/modal.scss'
 import { Modal } from '@mui/material';
-import '../../../css/modalSignIn.scss'
+
 import { ResetPassword } from './ResetPassword';
 
 export const SignIn = ({ show, hide }) => {
@@ -14,8 +16,6 @@ export const SignIn = ({ show, hide }) => {
     setResetP(false);
     hide()
   }
-
-
   return (
     <>
       <ResetPassword show={resetP} hide={CloseReset} />
@@ -24,7 +24,7 @@ export const SignIn = ({ show, hide }) => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <div className='modal_sign_in'>
+        <div className='modal_sign_in modal'>
           <h3>Tizimga kirish</h3>
 
           <div className='input_item'>

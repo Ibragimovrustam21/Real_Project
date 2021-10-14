@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/home/our-certificate.scss'
+import '../../css/home/our_certificate.scss'
 
 
 export const OurCertificate = () => {
