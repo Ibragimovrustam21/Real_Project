@@ -14,9 +14,10 @@
       height: 317px;
       width: 100%;
       box-sizing: border-box;
-      padding: 82px 189px 61px 121px;
+      padding: 82px 0;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
+      align-items: center;
 
       .address {
         width: 540px;
@@ -148,6 +149,9 @@
     .hr {
       width: 100%;
       height: 1px;
+      position: absolute;
+      left: 0;
+      right: 0;
       background: #747474;
       opacity: 0.5;
       transform: matrix(1, 0, 0, -1, 0, 0);

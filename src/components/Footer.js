@@ -5,9 +5,9 @@ import gerb from '../img/home/image 11sada (1).png'
 
 export const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer container'>
       <div className='footer_child'>
-        <div className='footer-h'>
+        <div className='footer-h '>
           <div className='address'>
             <div className='header_block'>
               <img src={gerb} alt='' />
