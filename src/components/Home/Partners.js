@@ -45,7 +45,7 @@ export const Partners = () => {
     ]
   };
   return (
-    <div className='partners container'>
+    <div className='partners container-project'>
       <div className='partners_child'>
         <h1>Bizning Hamkorlar</h1>
         <div className='carousel' style={{

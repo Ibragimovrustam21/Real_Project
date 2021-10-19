@@ -4,7 +4,7 @@ import '../../css/home/our_certificate.scss'
 
 export const OurCertificate = () => {
   return (
-    <div className='our_certificate container'>
+    <div className='our_certificate container-project'>
       <div className='our_certificate_child'>
         <div className='about_our_certificate'>
           <h1>Bizning Sertifikat</h1>

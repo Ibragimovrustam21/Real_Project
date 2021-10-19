@@ -1,12 +1,62 @@
-.modal_reset_password {
-  width: 440px;
-  height: 286px;
-  padding: 45px 70px;
+.reset_password {
 
-  .modal_btn {
-    border: 1px solid #023047;
-    margin-top: 20px;
-    color: #023047;
-    background-color: #fff;
+  .modal-dialog {
+    width: 440px;
+    height: 286px;
+    background: #FFFFFF;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+
+    .modal-content {
+      height: 100%;
+      position: relative;
+
+      .btn-close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 5;
+      }
+
+      .modal-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 55px 70px;
+
+        h3 {
+          height: 26px;
+          font-weight: 600;
+          font-size: 26px;
+          line-height: 100%;
+        }
+
+        .input_item {
+          margin-top: 38px;
+          width: 100%;
+
+          input {
+            height: 50px;
+            background: #F8F8F8;
+            border-radius: 8px;
+          }
+        }
+
+        .modal_btn {
+          border: 1px solid #023047;
+          margin-top: 20px;
+          color: #023047;
+          background-color: #fff;
+          height: 50px;
+          backdrop-filter: blur(20px);
+          border-radius: 10px;
+        }
+      }
+    }
+
+
+
+
   }
 }

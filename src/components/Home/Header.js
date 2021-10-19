@@ -5,7 +5,7 @@ import '../../css/home/header.scss'
 
 export const Header = () => {
   return (
-    <div className='header container'>
+    <div className='header container-project'>
       <div className='header-child '>
         <div className='header_img_block'>
           <img src={gerb} alt='' />

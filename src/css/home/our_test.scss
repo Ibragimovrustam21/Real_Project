@@ -30,7 +30,7 @@
       border-radius: 10px;
       box-sizing: border-box;
       padding: 0 30px;
-
+      position: relative;
       .test_item_title {
         display: flex;
         height: 50px;
@@ -150,14 +150,15 @@
         width: 310px;
         height: 1px;
         background: #E6E6E6;
-        margin-top: 13px;
+        margin-top: 13px !important;
+        margin: 0 auto;
       }
 
       .test_item_price {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 25px;
 
         h3 {
           width: 43px;

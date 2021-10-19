@@ -7,7 +7,7 @@ import decrease from '../../img/home/005-decrease.png'
 
 export const Advantage = () => {
   return (
-    <div className='advantage container'>
+    <div className='advantage container-project'>
       <h1>Talab bo'yicha va  istalgan joyda</h1>
       <div className='advantage_child'>
         <div className='advantage_item'>

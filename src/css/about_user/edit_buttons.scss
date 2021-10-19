@@ -1,0 +1,40 @@
+.edit_buttons_group {
+  margin-top: 30px;
+
+  button {
+    min-width: 180px;
+    max-width: 223px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+  }
+
+  .save {
+    background: #FF7500;
+    border: 1px solid #FF7500;
+    color: #fff;
+  }
+
+  .cancel {
+    border: 0;
+    background: transparent;
+    color: #FF7500;
+  }
+}
+
+.user {
+  display: none;
+}
+
+.address_block {
+  display: none;
+}
+
+.show_button {
+  display: flex;
+}

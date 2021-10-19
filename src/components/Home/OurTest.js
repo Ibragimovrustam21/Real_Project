@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export const OurTest = () => {
   return (
-    <div className='our_test container'>
+    <div className='our_test container-project'>
       <h1>Bizning Testlar</h1>
       <div className='our_test_child'>
         <div className='our_test_item'>
@@ -45,7 +45,7 @@ export const OurTest = () => {
               <p>40 ta test</p>
             </div>
           </div>
-          <div className='hr'></div>
+          <div className='hr' />
           <div className='test_item_price'>
             <h3>$52</h3>
             <Link to='/'>

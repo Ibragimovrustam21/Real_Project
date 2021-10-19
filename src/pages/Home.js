@@ -10,7 +10,7 @@ import { Navbar } from '../components/Navbar';
 
 export const Home = () => {
   return (
-    <div >
+    < >
       <Header />
       <Navbar />
       <StartTest />
@@ -19,6 +19,6 @@ export const Home = () => {
       <OurTest />
       <OurCertificate />
       <Partners />
-    </div>
+    </>
   );
 };

@@ -1,0 +1,155 @@
+.about_user {
+  .about_user_child {
+    .personal_information_block {
+      .personal_information_title {
+        .edit_icon {
+          height: 30px;
+          width: 30px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid #1B4559;
+          opacity: 0.8;
+          cursor: pointer;
+        }
+
+        .active_edit_icon {
+          display: none;
+        }
+      }
+
+      .personal_input_item {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+
+        label {
+          height: 17px;
+          font-size: 13px;
+          line-height: 130%;
+          letter-spacing: -0.02em;
+          opacity: 0.6;
+        }
+
+        input {
+          height: 35px;
+          border: 0;
+          box-sizing: border-box;
+          padding: 10px 0;
+          border-bottom: 1px solid #F3F3F3;
+          color: #000;
+          font-size: 16px;
+          line-height: 130%;
+          letter-spacing: -0.02em;
+
+          &:focus {
+            outline: none;
+          }
+
+          &:disabled {
+            background-color: transparent;
+          }
+
+        }
+      }
+
+      .personal_information {
+        height: 490px;
+        width: 100%;
+        // box-sizing: border-box;
+        // padding: 25px 40px;
+        box-shadow: 0px 1px 3px rgba(190, 190, 190, 0.25);
+        border-radius: 8px;
+        background-color: #fff;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+
+
+
+        .personal_information_child {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          box-sizing: border-box;
+          padding: 30px 40px;
+
+          .personal_input_group {
+            width: 70%;
+            height: 100%;
+          }
+
+          .personal_photo_block {
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+
+            .user_img {
+              width: 100%;
+              max-width: 223px;
+              height: 193px;
+              background: rgba(255, 255, 255, 0.1);
+              backdrop-filter: blur(2px);
+              border-radius: 10px;
+              cursor: pointer;
+
+              img {
+                width: 100% !important;
+                height: 100%;
+              }
+            }
+
+            .personal_input_item {
+              margin-top: 17px;
+              max-width: 223px;
+
+            }
+          }
+        }
+
+
+      }
+
+      .personal_information_edit {
+        height: 304px;
+        width: 100%;
+        margin-top: 20px;
+        box-shadow: 0px 1px 3px rgba(190, 190, 190, 0.25);
+        border-radius: 8px;
+        background-color: #fff;
+        position: relative;
+
+        .user_address {
+          box-sizing: border-box;
+          padding: 31px 40px;
+
+          .address {
+            display: flex;
+            justify-content: space-between;
+            height: auto;
+
+            .address_left {
+              width: 48%;
+              height: 100%;
+            }
+
+            .address_right {
+              width: 48%;
+              height: 100%;
+
+            }
+          }
+        }
+
+
+      }
+    }
+  }
+}

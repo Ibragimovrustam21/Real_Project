@@ -1,0 +1,55 @@
+.admin_leftbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 900px;
+  max-height: 900px;
+  box-sizing: border-box;
+  padding: 25px 0;
+  border: 1px solid #dfd9d9;
+  h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    color: #023047;
+    margin-bottom: 50px;
+  }
+
+  .admin_leftbar_link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+      height: 55px;
+      width: 100%;
+      font-size: 16px;
+      text-decoration: none;
+      box-sizing: border-box;
+      padding: 15px 25px;
+      line-height: 100%;
+      letter-spacing: -0.03em;
+      color: #000000;
+      opacity: 0.6;
+      transition: all 0.25s linear;
+      display: flex;
+      align-items: center;
+
+      svg {
+        width: 16px;
+        height: 16px;
+        margin-right: 15px;
+      }
+
+      &:hover {
+        // background: #FF7500;
+        background: rgba(255, 117, 0, 0.1);
+        // opacity: 0.03;
+        transition: all 0.25s linear;
+        opacity: 1;
+      }
+    }
+  }
+}

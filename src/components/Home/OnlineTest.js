@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export const OnlineTest = () => {
   return (
-    <div className='online_test container'>
+    <div className='online_test container-project'>
       <div className='online_test_child'>
         <div className='video_about_test'>
           <div className='play_video'>

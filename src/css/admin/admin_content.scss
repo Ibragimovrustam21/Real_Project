@@ -1,0 +1,105 @@
+.admin_content {
+  height: calc(100% - 140px);
+  width: 100%;
+  box-sizing: border-box;
+
+  .table {
+    width: 100%;
+
+    tr {
+      vertical-align: middle;
+      height: 50px;
+
+    }
+
+    thead {
+      background: #EFEFEF;
+
+      tr {
+        th {
+          &:nth-child(1) {
+            padding: 0 40px;
+          }
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        th {
+          padding: 0 40px;
+        }
+
+        &:hover {
+          background: #F2F5F6;
+          transition: all 0.3s linear;
+          cursor: pointer;
+        }
+
+        &:hover .payment_status_success {
+          background: #fff;
+          color: #026A33;
+          transition: all 0.3s linear;
+        }
+
+        &:hover .payment_status_error {
+          background: #fff;
+          color: #F51F11;
+          transition: all 0.3s linear;
+        }
+
+        td {
+          vertical-align: middle;
+
+          .payment_status {
+            width: 120px;
+            height: 36px;
+            border-radius: 38px;
+            font-size: 14px;
+            letter-spacing: -0.04em;
+            transition: all 0.3s linear;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .payment_status_error {
+            background: #FFF2F1;
+            color: #F51F11;
+          }
+
+          .payment_status_success {
+            background: #E6FDF0;
+            color: #026A33;
+          }
+
+          .table_icon {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .info_icon {
+            background: #F3A421;
+            margin-right: 10px;
+          }
+
+          .reply_icon {
+            background: #2365AF;
+          }
+
+          a {
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: -0.02em;
+            color: #0977ED;
+          }
+        }
+      }
+    }
+  }
+}

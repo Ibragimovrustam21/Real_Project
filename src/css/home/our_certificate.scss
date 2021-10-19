@@ -48,6 +48,7 @@
         border: 0;
         margin-top: 42px;
         cursor: pointer;
+        transition: all 0.3s linear;
 
         &:hover {
           background: #FF7500;
