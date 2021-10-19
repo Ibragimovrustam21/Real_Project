@@ -2,12 +2,12 @@ import React from 'react';
 
 export const ViewApplicationStatus = () => {
   return (
-    <div class="modal fade" id="application-status" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <h5 class="modal-title" id="staticBackdropLabel">Ariza №002</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          <div class="modal-body p-0 mt-5">
+    <div className="modal fade" id="application-status" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div className="modal-dialog">
+        <div className="modal-content">
+          <h5 className="modal-title" id="staticBackdropLabel">Ariza №002</h5>
+          <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div className="modal-body p-0 mt-5">
             <div className='row application_status_row'>
               <div className='col'><p> Chet tili nomi:</p></div>
               <div className='col'>English</div>
@@ -18,7 +18,7 @@ export const ViewApplicationStatus = () => {
             </div>
             <div className='row application_status_row'>
               <div className='col'><p> Test topshirish joyi:</p></div>
-              <div className='col'><a href='#'>Toshkent sh, M.Ulug’bek, Realtime Education</a></div>
+              <div className='col'><a href='/'>Toshkent sh, M.Ulug’bek, Realtime Education</a></div>
             </div>
             <div className='row application_status_row'>
               <div className='col'><p> Test topshirish vaqti:</p></div>

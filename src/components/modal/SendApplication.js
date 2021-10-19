@@ -2,23 +2,23 @@ import React from 'react';
 
 export const SendApplication = () => {
   return (
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <h5 class="modal-title" id="staticBackdropLabel">Ariza yuborish</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          <div class="modal-body p-0 mt-4">
+    <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div className="modal-dialog">
+        <div className="modal-content">
+          <h5 className="modal-title" id="staticBackdropLabel">Ariza yuborish</h5>
+          <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div className="modal-body p-0 mt-4">
             <div className='modal_select'>
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Chet tili nomi*</option>
+              <select className="form-select" aria-label="Default select example">
+                <option defaultValue>Chet tili nomi*</option>
                 <option value="1">English</option>
                 <option value="2">Russian</option>
                 <option value="3">Uzbek</option>
               </select>
             </div>
             <div className='modal_select'>
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Test turi*</option>
+              <select className="form-select" aria-label="Default select example">
+                <option defaultValue>Test turi*</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -27,8 +27,8 @@ export const SendApplication = () => {
             <div className='row'>
               <div className='col-6'>
                 <div className='modal_select'>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>Viloyat*</option>
+                  <select className="form-select" aria-label="Default select example">
+                    <option defaultValue>Viloyat*</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -37,8 +37,8 @@ export const SendApplication = () => {
               </div>
               <div className='col-6'>
                 <div className='modal_select'>
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>Tuman*</option>
+                  <select className="form-select" aria-label="Default select example">
+                    <option defaultValue>Tuman*</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -47,8 +47,8 @@ export const SendApplication = () => {
               </div>
             </div>
             <div className='modal_select'>
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Test topshirish joyi*</option>
+              <select className="form-select" aria-label="Default select example">
+                <option defaultValue>Test topshirish joyi*</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>

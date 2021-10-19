@@ -4,10 +4,10 @@ import { EditButtons } from '../User/EditButtons';
 import '../../css/about_user/personal-information.scss'
 
 export const PersonalInformation = () => {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [passport, setPassport] = useState('')
-  const [phone, setPhone] = useState('')
+  const [, setName] = useState('')
+  const [, setEmail] = useState('')
+  const [, setPassport] = useState('')
+  const [, setPhone] = useState('')
   const [login, setLogin] = useState('')
   const [vil, setVil] = useState('')
   const [tuman, setTuman] = useState('')
@@ -23,10 +23,10 @@ export const PersonalInformation = () => {
   }
 
   const disable = (props, iconName) => {
-    let a = document.querySelector(`#` + `${iconName}`)
+    let a = document.querySelector(`#${iconName}`)
     a.classList.add('active_edit_icon')
 
-    let showButton = document.querySelector(`.` + `${props}`)
+    let showButton = document.querySelector(`.${props}`)
     showButton.classList.add('show_button')
 
     if (props === 'user') {
@@ -44,10 +44,10 @@ export const PersonalInformation = () => {
   }
 
   const save = (props, iconName) => {
-    let a = document.querySelector(`#` + `${iconName}`)
+    let a = document.querySelector(`#${iconName}`)
     a.classList.remove('active_edit_icon')
 
-    let showButton = document.querySelector(`.` + `${props}`)
+    let showButton = document.querySelector(`.${props}`)
     showButton.classList.remove('show_button')
 
     if (props === 'user') {

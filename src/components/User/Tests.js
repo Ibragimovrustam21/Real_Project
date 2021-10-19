@@ -16,7 +16,7 @@ export const Tests = () => {
           <div className='results_title_left'>
             <h3>Test natijalari</h3>
             <div className='results_language'>
-              <select class="form-select" aria-label="Default select example">
+              <select className="form-select" aria-label="Default select example">
                 <option selected>English</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
@@ -93,8 +93,8 @@ export const Tests = () => {
                 <span>6.0</span>
                 <Link to='/'>Qayta ishlash</Link>
               </div>
-              <div class="collapse" id="collapse-1">
-                <div class="card card-body collapse_body collapse_item_body w-100">
+              <div className="collapse" id="collapse-1">
+                <div className="card card-body collapse_body collapse_item_body w-100">
                   <h6>Writing section</h6>
                   <p>15/09/2021</p>
                   <span>6.0</span>
@@ -114,8 +114,8 @@ export const Tests = () => {
                 <span>6.0</span>
                 <Link to='/21312' >Qayta ishlash</Link>
               </div>
-              <div class="collapse" id="collapse-2">
-                <div class="card card-body collapse_body collapse_item_body w-100">
+              <div className="collapse" id="collapse-2">
+                <div className="card card-body collapse_body collapse_item_body w-100">
                   <h6>Writing section</h6>
                   <p>15/09/2021</p>
                   <span>6.0</span>

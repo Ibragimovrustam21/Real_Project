@@ -19,7 +19,7 @@ export const AdminContent = () => {
           <tr>
             <th scope="row">0023</th>
             <td>English</td>
-            <td><a href='#'>lingvist.com</a></td>
+            <td><a href='/'>lingvist.com</a></td>
             <td>22 Sep 2021 | 16:15</td>
             <td>
               <div className='payment_status_success payment_status'>To`langan</div>
@@ -43,7 +43,7 @@ export const AdminContent = () => {
           <tr>
             <th scope="row">0023</th>
             <td>English</td>
-            <td><a href='#'>lingvist.com</a></td>
+            <td><a href='/'>lingvist.com</a></td>
             <td>22 Sep 2021 | 16:15</td>
             <td>
               <div className='payment_status_success payment_status'>To`langan</div>
@@ -67,7 +67,7 @@ export const AdminContent = () => {
           <tr>
             <th scope="row">0023</th>
             <td>English</td>
-            <td><a href='#'>lingvist.com</a></td>
+            <td><a href='/'>lingvist.com</a></td>
             <td>22 Sep 2021 | 16:15</td>
             <td>
               <div className='payment_status_error payment_status'>To`langan</div>

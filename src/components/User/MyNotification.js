@@ -38,7 +38,7 @@ export const MyNotification = () => {
                 <h5>English</h5>
                 <h5>Toshkent sh, M.Ulug’bek, Realtime Edu o’quv markazi</h5>
                 <h5>25.09.2021   10:00 </h5>
-                <h5><a href='#'>https://www.examenglish.com/IELTS/IELTS_General.html</a></h5>
+                <h5><a href='/'>https://www.examenglish.com/IELTS/IELTS_General.html</a></h5>
               </div>
             </div>
           </div>

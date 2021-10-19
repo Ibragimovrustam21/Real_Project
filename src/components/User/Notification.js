@@ -32,7 +32,7 @@ export const Notification = () => {
               </div>
               <div className='col-11'>
                 <span>23.09.2021</span>
-                <p>Sizning arizangiz ko’rib chiqilmoqda. Arizangiz qabul qilinishi uchun <a href='#'> To’lov</a> qilishingiz kerak.</p>
+                <p>Sizning arizangiz ko’rib chiqilmoqda. Arizangiz qabul qilinishi uchun <a href='/'> To’lov</a> qilishingiz kerak.</p>
               </div>
             </div>
           </Link>
@@ -56,7 +56,7 @@ export const Notification = () => {
               </div>
               <div className='col-11'>
                 <span>23.09.2021</span>
-                <p>Sizning arizangiz ko’rib chiqilmoqda. Arizangiz qabul qilinishi uchun <a href='#'> To’lov</a> qilishingiz kerak.</p>
+                <p>Sizning arizangiz ko’rib chiqilmoqda. Arizangiz qabul qilinishi uchun <a href='/'> To’lov</a> qilishingiz kerak.</p>
               </div>
             </div>
           </Link>
