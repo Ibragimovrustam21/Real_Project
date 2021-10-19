@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../css/about_user/application.scss'
-import NoApplication from '../../img/home/NoApplication.png'
 import { SendApplication } from '../modal/SendApplication';
 import { ViewApplicationStatus } from '../modal/ViewApplicationStatus';
 import { ApplicationTable } from './ApplicationTable';

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import '../css/about_user/about_user.scss'
 import { BrowserRouter } from 'react-router-dom'
 import { Switch, Route } from 'react-router'

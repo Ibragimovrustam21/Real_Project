@@ -3,7 +3,7 @@ import '../css/navbar.scss'
 import { Link } from 'react-router-dom';
 import { SignIn } from './modal/SignIn';
 import { SignUp } from './modal/SignUp';
-import { User } from './User/User';
+// import { User } from './User/User';
 import { ResetPassword } from './modal/ResetPassword';
 
 export const Navbar = () => {

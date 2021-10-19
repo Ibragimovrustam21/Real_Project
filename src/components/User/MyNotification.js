@@ -41,7 +41,6 @@ export const MyNotification = () => {
                 <h5><a href='#'>https://www.examenglish.com/IELTS/IELTS_General.html</a></h5>
               </div>
             </div>
-
           </div>
         </div>
       </div>

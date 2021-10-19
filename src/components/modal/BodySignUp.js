@@ -21,7 +21,7 @@ export default function BodySignUp() {
       </div>
       <div className='row input_select w-100 justify-content-between '>
         <div className='col p-0'>
-          <select class="form-select " aria-label="Default select example">
+          <select className="form-select " aria-label="Default select example">
             <option selected>Viloyat*</option>
             <option value="1">One</option>
             <option value="2">Two</option>
@@ -29,7 +29,7 @@ export default function BodySignUp() {
           </select>
         </div>
         <div className='col p-0 d-flex justify-content-end'>
-          <select class="form-select" aria-label="Default select example">
+          <select className="form-select" aria-label="Default select example">
             <option selected>Tuman*</option>
             <option value="1">One</option>
             <option value="2">Two</option>
@@ -39,7 +39,7 @@ export default function BodySignUp() {
       </div>
       <div className='row w-100 input_select'>
         <div className='col p-0 mt-3'>
-          <select class="form-select w-100" aria-label="Default select example">
+          <select className="form-select w-100" aria-label="Default select example">
             <option selected>Ish joyi*</option>
             <option value="1">One</option>
             <option value="2">Two</option>
