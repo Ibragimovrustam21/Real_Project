@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../css/modal/modalSignIn.scss'
-import '../../css/modal/modal.scss'
 
 export const SignIn = () => {
 

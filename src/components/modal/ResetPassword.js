@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../css/modal/modal.scss'
 import '../../css/modal/modalReset.scss'
 
 export const ResetPassword = () => {
@@ -19,7 +18,6 @@ export const ResetPassword = () => {
           </div>
         </div>
       </div>
-
     </>
   )
 }

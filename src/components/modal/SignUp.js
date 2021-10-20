@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../css/modal/modal.scss'
 import '../../css/modal/modalSignUp.scss'
 import BodySignUp from './BodySignUp';
 
